@@ -168,8 +168,8 @@ async def stop(msg):
     voice=discord.utils.get(client.voice_clients, guild=msg.guild)
     await voice.stop()
 
-
-client.run('ODQ1MjUzMjc1MDcwODg5OTk2.YKeRdA.G2Crs71SVEOfwgxJgOJ37mFFUyY')
+# token is your discord bot token
+client.run(TOKEN)
 
 
 # %%
